@@ -53,7 +53,6 @@ def get_article(url):
   return soup.find('article').text
 
 if __name__ == '__main__':
-  get_year(year)
+  get_year(2020)
 
 db.close()
-  
